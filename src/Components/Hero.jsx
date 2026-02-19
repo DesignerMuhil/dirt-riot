@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import hero from './src/assets/HeroImage.png'
 
 function Hero() {
   return (
@@ -8,7 +9,7 @@ function Hero() {
             Unleash Adventure
         </div>
         <div>
-            <img className='HeroImg' src="./src/assets/HeroImage.png" alt="" />
+            <img className='HeroImg' src={hero} alt="" />
         </div>
         <div className='HeroContent'>
              Electric Off-Road Bike Built for the Wild
