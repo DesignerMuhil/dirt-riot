@@ -1,5 +1,6 @@
 import React from 'react'
 import './Features.css'
+import bike1 from '../assets/Bike1.png'
 
 function Features() {
   return (
