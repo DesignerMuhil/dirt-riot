@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('./assets/Oswald-Regular.ttf') format('truetype');
+  
+}
+
+@font-face {
+  font-family: 'Caputer';
+  src: url('./assets/CaptureIT.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BlackOps';
+  src: url('./assets/BlackOpsOne-Regular.ttf') format('truetype');
+}
+.Background{
+  background-color: #F9F9F7;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}

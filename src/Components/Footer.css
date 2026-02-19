@@ -1,0 +1,113 @@
+.FooterSection {
+    width: 100%;
+    background-color: #1B1B1B;
+    box-sizing: border-box;
+    padding: 64px;
+}
+
+.FooterTop {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    box-sizing: border-box;
+}
+
+.FooterBrand {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.FooterLogo {
+    width: 120px;
+    filter: brightness(0) invert(1);
+}
+
+.FooterBrand p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #C6C6C6;
+    margin: 0px;
+}
+
+.NewsletterRow {
+    display: flex;
+    gap: 8px;
+}
+
+.NewsletterRow input {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1.5px solid #444;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.NewsletterRow input:focus {
+    border-color: #D72631;
+}
+
+.NewsletterRow button {
+    padding: 10px 16px;
+    background-color: #D72631;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.NewsletterRow button:hover {
+    background-color: #b71c1c;
+}
+
+.FooterCol {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.FooterCol h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #F9F9F7;
+    margin: 0px;
+    letter-spacing: 1px;
+}
+
+.FooterCol p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #C6C6C6;
+    margin: 0px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.FooterCol p:hover {
+    color: #D72631;
+}
+
+.FooterBottom {
+    
+    margin-top: 48px;
+    border-top: 1px solid #333;
+    padding-top: 24px;
+    text-align: center;
+}
+
+.FooterBottom p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #888;
+    margin: 0px;
+}

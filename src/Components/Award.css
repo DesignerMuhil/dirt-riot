@@ -1,0 +1,36 @@
+.AwardSection{
+    background-image: url(./src/assets/AwardSecBg.png);
+    width: 100%;
+    box-sizing: border-box;
+    height: 618px;
+    background-size: cover;
+    background-position: center;
+}
+.AwardSection{
+    padding: 64px;
+    color: #F9F9F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.AwardText{
+    width: 50%;
+}
+.AwardText h4{
+    margin: 0px;
+    font-family: 'oswald';
+    font-size: 36px;
+}
+.AwardText p{
+    font-family: 'oswald';
+    font-size: 18px;
+}
+.prductAward h4{
+    margin: 0px;
+    padding: 12px 0px;
+    font-family: 'oswald';
+    font-size: 24px;
+}
+.prductAward{
+    gap: 20px;
+}

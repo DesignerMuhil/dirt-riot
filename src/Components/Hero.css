@@ -1,0 +1,136 @@
+.HeroSec{
+    margin: 48px;
+}
+.HeroTextPrimary{
+    font-size: 140px;
+    font-family: 'Caputer';
+    color: #D72631;
+    text-align: center;
+    position: relative;
+}
+.HeroImg{
+    width: 800px;
+    position: absolute;
+    left: 240px;
+    top: 150px;
+    z-index: 1;
+}
+.HeroContent{
+    width: 523px;
+    position: absolute;
+    left: 930px;
+    top: 300px;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    color: #1B1B1B;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.HeroContent p{
+    font-size: 24px;
+    font-weight: 200;
+    color: #4B4B4B;
+}
+.HeroBtns{
+
+    display: flex;
+    gap: 16px;
+}
+.HPri{
+  background-color: #E63B2E;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+.HPri:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(81, 82, 83, 0.2) 0px 8px 24px;
+}
+.HSec{
+  background-color: #F9F9F7;
+  color: #1B1B1B;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+  border-style: solid;
+  border-color: #D72631;
+}
+.HSec:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(81, 82, 83, 0.2) 0px 8px 24px;
+}
+.radar-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid orange;
+  animation: radar 5s ease-out infinite;
+}
+
+.ring1 { width: 150px; height: 150px; animation-delay: 0s; }
+.ring2 { width: 200px; height: 200px; animation-delay: 0.5s; }
+.ring3 { width: 250px; height: 250px; animation-delay: 1s; }
+
+@keyframes radar {
+  0%   { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(1.2); opacity: 0; }
+}
+
+.main-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: #D72631;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.spinning-text {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  animation: spin 48s linear infinite;
+}
+
+.spinning-text text {
+  font-size: 24px;
+  fill: white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.play-btn {
+  font-size: 48px;
+  color: white;
+  z-index: 3;
+}

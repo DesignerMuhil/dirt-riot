@@ -1,0 +1,47 @@
+
+.FeatureContent{
+    padding: 32px;
+    width: 50%;
+    background-color: #1B1B1B;
+    position: relative;
+    z-index: 5;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: #F9F9F7;
+    height: auto;
+}
+.FeatureContent p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #C6C6C6;
+}
+.keyPoints h5{
+    color: #D4AF37;
+    margin: 0;
+    font-size: 36px;
+}
+.keyPoints{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    padding: 16px;
+}
+.keyPoints p{
+    margin: 0.5;
+}
+.FeatureImageContainer {
+    width: 50%;
+    position: relative;
+}
+.FeatureImage{
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+}
+.FeatureSection {
+  display: flex;
+  flex-direction: row;
+  padding-top: 291px;
+  
+}
+

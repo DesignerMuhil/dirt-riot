@@ -1,0 +1,73 @@
+
+.NavBar{
+    margin: 16px;
+    padding-inline: 32px;
+    /* height: 74px; */
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+.Logo{
+    width: 64px;
+}
+.NavLogo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 25%;
+}
+.MenuItems{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 32px;
+    color: #4B4B4B;
+    cursor: pointer;
+    transition: color 1s ease;
+}
+.MenuItems div {
+  color: #4B4B4B;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.MenuItems div:hover {
+  color: #D72631;
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+.LoginBox{
+    width: 25%;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+.BuyBtn{
+    background-color: #E63B2E;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    border: solid 2px;
+    border-color:#D72631;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+.BuyBtn:hover{
+    background-color: #F9F9F7;
+    color: #D72631;
+    border: solid 2px;
+    border-color:#D72631;
+
+}
