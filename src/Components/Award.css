@@ -1,5 +1,5 @@
 .AwardSection{
-    background-image: url(./src/assets/AwardSecBg.png);
+    background-image: url('../assets/AwardSecBg.png');
     width: 100%;
     box-sizing: border-box;
     height: 618px;
